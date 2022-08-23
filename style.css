@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'sriracha';
+    src: url('fonts/Sriracha-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: passionOne-Black;
+    src: url('fonts/PassionOne-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: passionOne-Bold;
+    src: url('fonts/PassionOne-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: passionOne;
+    src: url('fonts/PassionOne-Regular.ttf') format('truetype');
+}
+:root{
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-passionOne-reg: 'passionOne', cursive ;
+    --fonte-passionOne-black: 'passionOne-Black', cursive;
+    --fonte-passionOne-bold: 'passionOne-Bold', cursive;
+    --fonte-sriracha: 'sriracha', cursive;
+}
+
+body{
+    background-color: white;
+}
+header{
+    background-color: black;
+    color: white;
+    margin-top: -92px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+header h1{
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-family: var(--fonte-passionOne-reg);
+    font-size: 10vw;
+    text-align: center;
+    font-variant: small-caps;
+}
+header p a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+header p a:hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: -10px -8px;
+    font-family: var(--fonte-padrao);
+}
+footer p {
+    margin: 0px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
