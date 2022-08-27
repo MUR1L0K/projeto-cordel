@@ -43,15 +43,23 @@ header h1{
     text-align: center;
     font-variant: small-caps;
 }
+header p{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
 header p a{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1em;
     text-align: center;
     padding-top: 0px;
-    padding-bottom: 50px;
 }
 header p a:hover{
     text-decoration: underline;
